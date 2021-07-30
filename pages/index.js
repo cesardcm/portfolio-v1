@@ -33,7 +33,7 @@ export default function Home() {
         <div className="container mx-auto">
           <div id="Hero Section" className="container flex items-center justify-between flex-shrink-0 max-w-4xl mx-auto mt-9">
             <div className="" id="Hero Content">
-              <h1 className="font-medium leading-snug"> Hello, I’m Cesar! <br /> Front End Developer <br /> Focused on React and Next JS. </h1>
+              <h1 className="font-medium leading-snug"> Hello, I’m Cesar! <br /> Front End Developer <br /> Focused Next JS. </h1>
             </div>
             <div id="Hero Image" className="max-w-md" >
               <img className="transform rounded-full scale-35" src="images/profile.jpg" />
