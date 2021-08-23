@@ -37,19 +37,16 @@ export default function Home() {
           </div>
         </nav>
       </header>
-      <main>
+      <main className="max-w-4xl mx-auto">
         {/*  ---------------------------------- Hero ----------------------------------  */}
 
-        <div className="container mx-auto">
-          <div
-            id="Hero Section"
-            className="container flex items-center justify-between flex-shrink-0 max-w-4xl mx-auto mt-9"
-          >
+        <div id="Hero Section" className="container mx-auto ">
+          <div className="container flex items-center justify-between flex-shrink-0 max-w-4xl mx-auto mt-9">
             <div className="" id="Hero Content">
               <h1 className="font-medium leading-snug">
                 {" "}
-                Hello, I’m Cesar! <br /> Front End Developer <br /> Focused Next
-                JS.{" "}
+                Hello, I’m Cesar! <br /> Front End Developer <br /> Focused
+                Next.js{" "}
               </h1>
               <div className="flex justify-between w-2/5 mt-5">
                 <svg
@@ -92,7 +89,46 @@ export default function Home() {
 
         {/*  ---------------------------------- Skils ----------------------------------  */}
 
-        <div></div>
+        <div id="Skills" className="flex flex-col mx-auto mt-36 ">
+          <h2 className="text-4xl font-medium">Skills</h2>
+          <div className="w-3/5">
+            {" "}
+            <p className="text-xl ">
+              I'm passionate about technologies and tools with big communities
+              and high satisfaction rates.
+            </p>{" "}
+          </div>
+
+          <div className="grid items-center grid-cols-3 gap-4 mt-10 font-semibold text-center ">
+            <div className="flex flex-col p-6 overflow-hidden bg-gray-200 rounded justify-items-center ">
+              <img
+                src="images/js.png"
+                className="object-contain w-full h-12"
+              ></img>
+              <p>Javascript</p>
+            </div>
+            <div className="flex justify-center p-6 bg-gray-200 rounded ">
+              {" "}
+              React{" "}
+            </div>
+            <div className="flex justify-center p-6 bg-gray-200 rounded ">
+              {" "}
+              Next.js{" "}
+            </div>
+            <div className="flex justify-center p-6 bg-gray-200 rounded ">
+              {" "}
+              Node{" "}
+            </div>
+            <div className="flex justify-center p-6 bg-gray-200 rounded">
+              {" "}
+              Figma{" "}
+            </div>
+            <div className="flex justify-center p-6 bg-gray-200 rounded">
+              {" "}
+              Webflow{" "}
+            </div>
+          </div>
+        </div>
       </main>
 
       {/*  --------------------------------- Footer --------------------------------- */}
