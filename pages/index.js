@@ -100,32 +100,47 @@ export default function Home() {
           </div>
 
           <div className="grid items-center grid-cols-3 gap-4 mt-10 font-semibold text-center ">
-            <div className="flex flex-col p-6 overflow-hidden bg-gray-200 rounded justify-items-center ">
+            <div className="flex flex-col p-6 overflow-hidden bg-gray-200 rounded-3xl justify-items-center ">
               <img
                 src="images/js.png"
                 className="object-contain w-full h-12"
               ></img>
               <p>Javascript</p>
             </div>
-            <div className="flex justify-center p-6 bg-gray-200 rounded ">
-              {" "}
-              React{" "}
+            <div className="flex flex-col p-6 overflow-hidden bg-gray-200 rounded justify-items-center ">
+              <img
+                src="images/react.png"
+                className="object-contain w-full h-12"
+              ></img>
+              <p>React</p>
             </div>
-            <div className="flex justify-center p-6 bg-gray-200 rounded ">
-              {" "}
-              Next.js{" "}
+            <div className="flex flex-col p-6 overflow-hidden bg-gray-200 rounded justify-items-center ">
+              <img
+                src="images/next.png"
+                className="object-contain w-full h-12"
+              ></img>
+              <p>Next.js</p>
             </div>
-            <div className="flex justify-center p-6 bg-gray-200 rounded ">
-              {" "}
-              Node{" "}
+            <div className="flex flex-col p-6 overflow-hidden bg-gray-200 rounded justify-items-center ">
+              <img
+                src="images/node.png"
+                className="object-contain w-full h-12"
+              ></img>
+              <p>Node</p>
             </div>
-            <div className="flex justify-center p-6 bg-gray-200 rounded">
-              {" "}
-              Figma{" "}
+            <div className="flex flex-col p-6 overflow-hidden bg-gray-200 rounded justify-items-center ">
+              <img
+                src="images/figma.png"
+                className="object-contain w-full h-12"
+              ></img>
+              <p>Figma</p>
             </div>
-            <div className="flex justify-center p-6 bg-gray-200 rounded">
-              {" "}
-              Webflow{" "}
+            <div className="flex flex-col p-6 overflow-hidden bg-gray-200 rounded justify-items-center ">
+              <img
+                src="images/webflow.png"
+                className="object-contain w-full h-12"
+              ></img>
+              <p>Webflow</p>
             </div>
           </div>
         </div>
