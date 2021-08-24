@@ -91,7 +91,7 @@ export default function Home() {
 
         <div id="Skills" className="flex flex-col mx-auto mt-36 mb-36 ">
           <h2 className="text-4xl font-medium">Skills</h2>
-          <div className="w-3/5">
+          <div className="w-3/5 mt-5">
             {" "}
             <p className="text-xl ">
               I'm passionate about technologies and tools with big communities
@@ -141,6 +141,51 @@ export default function Home() {
                 className="object-contain w-full h-12"
               ></img>
               <p>Webflow</p>
+            </div>
+          </div>
+        </div>
+        {/*  ---------------------------------- Projects ----------------------------------  */}
+
+        <div id="Projects" className="mb-36">
+          <h2 className="text-4xl font-medium">What I’ve been working on</h2>
+          <div className="w-4/5 mt-5">
+            <p className="text-xl">
+              I give prority to projects that are free and useful for others.
+              Here is a selection of my favorite ones.
+            </p>
+          </div>
+          <div className="grid grid-cols-2 gap-40">
+            <div>
+              <div className="px-8 py-4 rounded-lg bg-gradient-to-r from-red-500 to-blue-600 ">
+                <img
+                  src="images/project1.jpg"
+                  className="object-cover w-full rounded h-52"
+                ></img>
+              </div>
+              <div className="pt-4">
+                <h3 className="text-2xl font-semibold">Poolsuite</h3>
+                <p className="mt-2">
+                  A radio station focused on modern disco. Ideal for beach days!
+                </p>
+              </div>
+            </div>
+            <div className="bg-gray-100">
+              <div>
+                <img src="images/project2.png"></img>
+              </div>
+              <p>Text</p>
+            </div>
+            <div className="bg-gray-100">
+              <div>
+                <img src="images/project3.png"></img>
+              </div>
+              <p>Text</p>
+            </div>
+            <div className="bg-gray-100">
+              <div>
+                <img src="images/project4.png"></img>
+              </div>
+              <p>Text</p>
             </div>
           </div>
         </div>
