@@ -154,9 +154,9 @@ export default function Home() {
               Here is a selection of my favorite ones.
             </p>
           </div>
-          <div className="grid grid-cols-2 gap-40">
+          <div className="grid grid-cols-2 gap-40 mt-10">
             <div>
-              <div className="px-8 py-4 rounded-lg bg-gradient-to-r from-red-500 to-blue-600 ">
+              <div className="shadow-md ">
                 <img
                   src="images/project1.jpg"
                   className="object-cover w-full rounded h-52"
@@ -169,23 +169,48 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="bg-gray-100">
-              <div>
-                <img src="images/project2.png"></img>
+            <div>
+              <div className="shadow-md ">
+                <img
+                  src="images/project2.png"
+                  className="object-cover w-full rounded h-52"
+                ></img>
               </div>
-              <p>Text</p>
+              <div className="pt-4">
+                <h3 className="text-2xl font-semibold">Favourite Tools</h3>
+                <p className="mt-2">
+                  A page focused on new tools that I find useful for developers.
+                </p>
+              </div>
             </div>
-            <div className="bg-gray-100">
-              <div>
-                <img src="images/project3.png"></img>
+            <div>
+              <div className="shadow-md ">
+                <img
+                  src="images/project3.png"
+                  className="object-cover w-full rounded h-52"
+                ></img>
               </div>
-              <p>Text</p>
+              <div className="pt-4">
+                <h3 className="text-2xl font-semibold">Notion Life Planner</h3>
+                <p className="mt-2">
+                  Not your regular life planner. After years of trying to find
+                  it, I made a minimal planner that just works.
+                </p>
+              </div>
             </div>
-            <div className="bg-gray-100">
-              <div>
-                <img src="images/project4.png"></img>
+            <div>
+              <div className="shadow-md ">
+                <img
+                  src="images/project4.png"
+                  className="object-cover w-full rounded h-52"
+                ></img>
               </div>
-              <p>Text</p>
+              <div className="pt-4">
+                <h3 className="text-2xl font-semibold">Top Resources</h3>
+                <p className="mt-2">
+                  A list of sites and apps where I get my information from
+                </p>
+              </div>
             </div>
           </div>
         </div>
