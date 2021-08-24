@@ -214,6 +214,20 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        {/*  --------------------------------- Contact --------------------------------- */}
+        <div id="contact" className="mb-36">
+          <h2 className="text-4xl font-medium">Let’s talk!</h2>
+          <div className="text-xl ">
+            <p className="mt-4 ">Feel free to send me a message if: </p>
+            <ul className="mt-4 ml-6 list-disc ">
+              <li>You want us to work together</li>
+              <li>Have a cool project (i’m always interested!) </li>
+              <li>Just want to say hi! </li>
+            </ul>
+            <p className="mt-6 font-semibold">cesar.camat@gmail.com</p>
+          </div>
+        </div>
       </main>
 
       {/*  --------------------------------- Footer --------------------------------- */}
