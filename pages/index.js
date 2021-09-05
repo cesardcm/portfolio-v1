@@ -22,7 +22,7 @@ export default function Home() {
       <header className="font-medium">
         <nav className="container flex flex-row items-center justify-between max-w-6xl px-40 mx-auto mt-2 mb-2 ">
           <div className="items-center text-2xl ">
-            <h2 className="">Cesar Camacho</h2>
+            <h2 className="">David</h2>
           </div>
           <div className="text-xl">
             <a className="ml-8 hover:underline" href="">
