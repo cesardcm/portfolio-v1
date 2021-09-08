@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Next App</title>
+        <title>Cesar Camacho - Frontend Developer</title>
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
@@ -37,7 +37,7 @@ export default function Home() {
       <main className="max-w-4xl mx-auto">
         {/*  ---------------------------------- Hero ----------------------------------  */}
 
-        <div id="Hero Section" className="container mx-auto ">
+        <div id="Hero Section" className="container mx-auto mt-16 ">
           <div className="container flex items-center justify-between flex-shrink-0 max-w-4xl mx-auto mt-9">
             <div className="" id="Hero Content">
               <h1 className="font-medium leading-snug">
@@ -80,9 +80,9 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div id="Hero Image" className="max-w-md">
+            <div id="Hero Image" className="max-w-sm">
               <img
-                className="transform rounded-full scale-35"
+                className="object-contain rounded-full "
                 src="images/profile.jpg"
               />
             </div>
