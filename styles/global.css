@@ -9,3 +9,7 @@
     @apply text-5xl;
   }
 }
+
+html {
+  scroll-behavior: smooth;
+}

@@ -20,18 +20,15 @@ export default function Home() {
       </Head>
 
       <header className="font-medium">
-        <nav className="container flex flex-row items-center justify-between max-w-6xl px-40 mx-auto mt-2 mb-2 ">
+        <nav className="container flex flex-row items-center justify-between max-w-6xl px-40 mx-auto mt-4 mb-2 ">
           <div className="items-center text-2xl ">
-            <h2 className="">David</h2>
+            <h2 className="">César Camacho</h2>
           </div>
           <div className="text-xl">
-            <a className="ml-8 hover:underline" href="">
+            <a className="ml-8 hover:underline" href="#about">
               About
             </a>
-            <a className="ml-8 hover:underline" href="">
-              Blog
-            </a>
-            <a className="ml-8 hover:underline" href="">
+            <a className="ml-8 hover:underline" href="#contact">
               Contact
             </a>
           </div>
@@ -89,14 +86,13 @@ export default function Home() {
 
         {/*  ---------------------------------- Skils ----------------------------------  */}
 
-        <div id="Skills" className="flex flex-col mx-auto mt-36 mb-36 ">
+        <div id="about" className="flex flex-col mx-auto mt-36 mb-36 ">
           <h2 className="text-4xl font-medium">Skills</h2>
           <div className="w-3/5 mt-5">
-            {" "}
             <p className="text-xl ">
               I'm passionate about technologies and tools with big communities
               and high satisfaction rates.
-            </p>{" "}
+            </p>
           </div>
 
           <div className="grid items-center w-4/5 grid-cols-3 mt-10 font-semibold text-center gap-x-10 gap-y-5 ">
@@ -154,32 +150,37 @@ export default function Home() {
               Here is a selection of my favorite ones.
             </p>
           </div>
-          <div className="grid grid-cols-2 gap-40 mt-10">
+          <div className="grid grid-cols-2 mt-20 gap-x-32 gap-y-20">
             <div>
-              <div className="shadow-md ">
-                <img
-                  src="images/project1.jpg"
-                  className="object-cover w-full rounded h-52"
-                ></img>
+              <div className="transform shadow-md ">
+                <a target="_blank" href="https://mealticketguyana.com/">
+                  <img
+                    src="images/portfolio-projects/portfolio-project-1.png"
+                    className="object-cover rounded h-52 w-96 "
+                  ></img>
+                </a>
               </div>
               <div className="pt-4">
-                <h3 className="text-2xl font-semibold">Poolsuite</h3>
+                <h3 className="text-2xl font-semibold">Mealticket Guyana</h3>
                 <p className="mt-2">
-                  A radio station focused on modern disco. Ideal for beach days!
+                  A dedicated platform for all your Favourite Guyanese Foods
                 </p>
               </div>
             </div>
             <div>
               <div className="shadow-md ">
-                <img
-                  src="images/project2.png"
-                  className="object-cover w-full rounded h-52"
-                ></img>
+                <a target="_blank" href="https://impactloopapp.com/">
+                  <img
+                    src="images/portfolio-projects/portfolio-project-2.png"
+                    className="object-cover rounded h-52 w-96"
+                  ></img>
+                </a>
               </div>
               <div className="pt-4">
-                <h3 className="text-2xl font-semibold">Favourite Tools</h3>
+                <h3 className="text-2xl font-semibold">Impact Loop</h3>
                 <p className="mt-2">
-                  A page focused on new tools that I find useful for developers.
+                  Platform that connects Australian and African founders to
+                  business mentors and investors.
                 </p>
               </div>
             </div>
@@ -187,7 +188,7 @@ export default function Home() {
               <div className="shadow-md ">
                 <img
                   src="images/project3.png"
-                  className="object-cover w-full rounded h-52"
+                  className="object-cover rounded h-52 w-96 "
                 ></img>
               </div>
               <div className="pt-4">
@@ -202,7 +203,7 @@ export default function Home() {
               <div className="shadow-md ">
                 <img
                   src="images/project4.png"
-                  className="object-cover w-full rounded h-52"
+                  className="object-cover rounded h-52 w-96 "
                 ></img>
               </div>
               <div className="pt-4">
@@ -220,12 +221,17 @@ export default function Home() {
           <h2 className="text-4xl font-medium">Let’s talk!</h2>
           <div className="text-xl ">
             <p className="mt-4 ">Feel free to send me a message if: </p>
-            <ul className="mt-4 ml-6 list-disc ">
+            <ul className="mt-4 mb-4 ml-6 list-disc ">
               <li>You want us to work together</li>
               <li>Have a cool project (i’m always interested!) </li>
               <li>Just want to say hi! </li>
             </ul>
-            <p className="mt-6 font-semibold">cesar.camat@gmail.com</p>
+            <a
+              className="text-blue-600 underline hover:text-blue-800 visited:text-purple-600"
+              href="mailto: cesardcm99@gmail.com"
+            >
+              cesardcm99@gmail.com
+            </a>
           </div>
         </div>
       </main>
