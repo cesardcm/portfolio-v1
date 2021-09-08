@@ -1,7 +1,7 @@
 export default function Navbar() {
   return (
-    <header className="font-medium">
-      <nav className="container flex flex-row items-center justify-between max-w-6xl px-40 mx-auto mt-4 mb-2 ">
+    <header className="max-w-4xl mx-auto font-medium">
+      <nav className="flex flex-row items-center justify-between mt-4 mb-2 ">
         <div className="items-center text-2xl ">
           <h2 className="">César Camacho</h2>
         </div>
