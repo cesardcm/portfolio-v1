@@ -41,10 +41,16 @@ export default function Home() {
           <div className="container flex items-center justify-between flex-shrink-0 max-w-4xl mx-auto mt-9">
             <div className="" id="Hero Content">
               <h1 className="font-medium leading-snug">
-                Hello, I’m Cesar! <br /> Front End Developer <br /> Focused
-                Next.js
+                Hello, I’m Cesar! <br /> Front End Developer <br /> Focused on{" "}
+                <a target="_blank" href="https://nextjs.org/">
+                  <span className="text-gray-700 underline">Next.js</span>{" "}
+                </a>
+                and{" "}
+                <a target="_blank" href="https://tailwindcss.com/">
+                  <span className="text-green-500 underline">Tailwind.css</span>
+                </a>
               </h1>
-              <div className="flex justify-between w-2/5 mt-5">
+              <div className="flex justify-between w-2/6 mt-5">
                 <a href="https://twitter.com/thejamdev" target="_blank">
                   <svg
                     id="twitter"
