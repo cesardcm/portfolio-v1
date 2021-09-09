@@ -9,19 +9,30 @@ export default function Navbar() {
         <div className="items-center text-2xl ">
           <h2 className="">César Camacho</h2>
         </div>
-        <div className="text-xl">
+        <div className="flex items-center text-xl">
           <a className="ml-8 hover:underline" href="#about">
             About
           </a>
           <a className="ml-8 hover:underline" href="#contact">
             Contact
           </a>
-
-          {colorTheme === "light" ? (
-            <button onClick={() => setTheme("light")}>💡</button>
-          ) : (
-            <button onClick={() => setTheme("dark")}>🌙</button>
-          )}
+          <div className="pl-8 text-4xl">
+            {colorTheme === "light" ? (
+              <button
+                className="px-3 py-2 bg-gray-600 bg-opacity-50 rounded-lg backdrop-blur-lg "
+                onClick={() => setTheme("light")}
+              >
+                💡
+              </button>
+            ) : (
+              <button
+                className="px-1 py-2 bg-gray-200 bg-opacity-50 rounded-lg backdrop-blur-lg "
+                onClick={() => setTheme("dark")}
+              >
+                🌙
+              </button>
+            )}
+          </div>
         </div>
       </nav>
     </header>

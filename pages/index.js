@@ -9,7 +9,7 @@ import Contact from "../components/Contact";
 
 export default function Home() {
   return (
-    <div className="dark:bg-gray-800 dark:text-gray-50">
+    <div className="dark:bg-gray-800 dark:text-gray-200">
       <Head>
         <title>Cesar Camacho - Frontend Developer</title>
         <link rel="icon" href="/favicon.ico" />
