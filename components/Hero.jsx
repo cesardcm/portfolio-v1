@@ -20,6 +20,7 @@ export default function HeroSection() {
           <div className="flex justify-between w-1/6 mt-5">
             <a href="https://github.com/ifreeDavid" target="_blank">
               <svg
+                className="dark:text-white dark:fill-current"
                 id="github"
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
@@ -31,6 +32,7 @@ export default function HeroSection() {
             </a>
             <a href="https://www.linkedin.com/in/cesar-cm/" target="_blank">
               <svg
+                className="dark:text-white dark:fill-current"
                 id="linkedin"
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
@@ -44,7 +46,7 @@ export default function HeroSection() {
         </div>
         <div id="Hero Image" className="max-w-sm">
           <img
-            className="object-contain rounded-full "
+            className="object-contain rounded-full shadow-lg"
             src="images/profile.jpg"
           />
         </div>
