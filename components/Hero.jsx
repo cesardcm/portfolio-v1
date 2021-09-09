@@ -9,7 +9,8 @@ export default function HeroSection() {
               <span className="text-gray-700 hover:underline dark:text-gray-300">
                 Next.js
               </span>{" "}
-            </a>
+            </a>{" "}
+            <br />
             and{" "}
             <a target="_blank" href="https://tailwindcss.com/">
               <span className="text-green-500 hover:underline dark:text-green-300">
@@ -44,7 +45,7 @@ export default function HeroSection() {
             </a>
           </div>
         </div>
-        <div id="Hero Image" className="max-w-sm">
+        <div id="Hero Image" className="max-w-xs">
           <img
             className="object-contain rounded-full shadow-lg"
             src="images/profile.jpg"
