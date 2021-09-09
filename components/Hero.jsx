@@ -6,13 +6,13 @@ export default function HeroSection() {
           <h1 className="font-medium leading-snug">
             Hello, I’m Cesar! <br /> Front End Developer <br /> Focused on{" "}
             <a target="_blank" href="https://nextjs.org/">
-              <span className="text-gray-700 underline dark:text-gray-300">
+              <span className="text-gray-700 hover:underline dark:text-gray-300">
                 Next.js
               </span>{" "}
             </a>
             and{" "}
             <a target="_blank" href="https://tailwindcss.com/">
-              <span className="text-green-500 underline dark:text-green-300">
+              <span className="text-green-500 hover:underline dark:text-green-300">
                 Tailwind.css
               </span>
             </a>
