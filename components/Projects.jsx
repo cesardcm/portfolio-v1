@@ -8,13 +8,13 @@ export default function Projects() {
           is a selection of my favorite ones.
         </p>
       </div>
-      <div className="grid grid-cols-2 mt-20 gap-x-32 gap-y-20">
+      <div className="grid grid-cols-1 mt-20 lg:grid-cols-2 gap-x-32 gap-y-20">
         <div>
           <div className="transform shadow-md ">
             <a target="_blank" href="https://mealticketguyana.com/">
               <img
                 src="images/portfolio-projects/portfolio-project-1.png"
-                className="object-cover rounded  h-52 w-96"
+                className="object-cover rounded h-52 w-96"
               ></img>
             </a>
           </div>
