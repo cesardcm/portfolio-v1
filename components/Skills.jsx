@@ -10,44 +10,29 @@ export default function SkillSection() {
       </div>
 
       <div className="grid items-center w-4/5 grid-cols-3 mt-10 font-semibold text-center gap-x-10 gap-y-5 dark:text-gray-800 ">
-        <div className="flex flex-col p-6 overflow-hidden bg-gray-200 rounded-3xl justify-items-center ">
-          <img src="images/js.png" className="object-contain w-full h-12"></img>
+        <div className="skills-block">
+          <img src="images/js.png" className="skills-image"></img>
           <p>Javascript</p>
         </div>
-        <div className="flex flex-col p-6 overflow-hidden bg-gray-200 rounded-3xl justify-items-center ">
-          <img
-            src="images/react.png"
-            className="object-contain w-full h-12"
-          ></img>
+        <div className="skills-block">
+          <img src="images/react.png" className="skills-image"></img>
           <p>React</p>
         </div>
-        <div className="flex flex-col p-6 overflow-hidden bg-gray-200 rounded-3xl justify-items-center ">
-          <img
-            src="images/next.png"
-            className="object-contain w-full h-12"
-          ></img>
+        <div className="skills-block">
+          <img src="images/next.png" className="skills-image"></img>
           <p>Next.js</p>
         </div>
-        <div className="flex flex-col p-6 overflow-hidden bg-gray-200 rounded-3xl justify-items-center ">
-          <img
-            src="images/node.png"
-            className="object-contain w-full h-12"
-          ></img>
+        <div className="skills-block">
+          <img src="images/node.png" className="skills-image"></img>
           <p>Node</p>
         </div>
-        <div className="flex flex-col p-6 overflow-hidden bg-gray-200 rounded-3xl justify-items-center ">
-          <img
-            src="images/figma.png"
-            className="object-contain w-full h-12"
-          ></img>
+        <div className="skills-block">
+          <img src="images/figma.png" className="skills-image"></img>
           <p>Figma</p>
         </div>
-        <div className="flex flex-col p-6 overflow-hidden bg-gray-200 rounded-3xl justify-items-center ">
-          <img
-            src="images/webflow.png"
-            className="object-contain w-full h-12"
-          ></img>
-          <p>Webflow</p>
+        <div className="skills-block">
+          <img src="images/tailwindcss.svg" className="skills-image"></img>
+          <p>Tailwind</p>
         </div>
       </div>
     </div>

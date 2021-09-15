@@ -5,6 +5,13 @@
 @tailwind utilities;
 
 @layer components {
+  .skills-block {
+    @apply flex flex-col px-4 py-6 overflow-hidden bg-gray-200 rounded-3xl justify-items-center;
+  }
+
+  .skills-image {
+    @apply object-contain w-full h-12 mb-4;
+  }
   h1 {
     @apply text-5xl;
   }
