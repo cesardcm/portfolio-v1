@@ -4,8 +4,8 @@ export default function Navbar() {
   const [colorTheme, setTheme] = useDarkMode();
 
   return (
-    <header className="sticky top-0 z-50 pt-2 pb-1 mx-auto font-medium backdrop-blur-lg">
-      <nav className="flex flex-row items-center justify-between max-w-4xl mx-auto mb-2 ">
+    <header className="sticky top-0 z-50 pt-4 pb-1 mx-auto font-medium lg:pt-6 backdrop-blur-lg">
+      <nav className="flex flex-row items-center justify-between max-w-sm mx-auto mb-2 sm:max-w-lg md:max-w-xl lg:max-w-4xl ">
         <div className="items-center text-2xl ">
           <h2 className="">César Camacho</h2>
         </div>
@@ -18,7 +18,7 @@ export default function Navbar() {
               Contact
             </a>
           </div>
-          <div className="w-4 h-full pl-8 text-4xl">
+          <div className="absolute hidden w-4 h-full pl-8 text-4xl lg:visible md:static ">
             {colorTheme === "light" ? (
               <button
                 className="px-3 py-2 rounded-lg shadow-inner "

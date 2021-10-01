@@ -1,6 +1,6 @@
 export default function SkillSection() {
   return (
-    <div id="about" className="flex flex-col mx-auto mt-36 mb-36 ">
+    <div id="about" className="flex flex-col mt-36 mb-36 ">
       <h2 className="text-4xl font-medium">Skills</h2>
       <div className="w-3/5 mt-5">
         <p className="text-xl ">
