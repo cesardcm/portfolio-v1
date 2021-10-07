@@ -10,7 +10,7 @@ export default function Contact() {
           <li>Just want to say hi! </li>
         </ul>
         <a
-          className="text-blue-600 underline hover:text-blue-800 visited:text-purple-600 dark:text-gray-50 dark:hover:text-gray-300 dark:visited:text-purple-400"
+          className="text-gray-100 underline hover:text-gray-400 visited:text-purple-600 dark:text-gray-50 dark:hover:text-gray-300 dark:visited:text-purple-400"
           href="mailto: cesardcm99@gmail.com"
         >
           cesardcm99@gmail.com
