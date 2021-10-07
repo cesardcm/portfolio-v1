@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 pt-4 pb-1 mx-auto font-medium lg:pt-6 backdrop-blur-lg">
       <nav className="flex flex-row items-center justify-between max-w-sm mx-auto mb-2 sm:max-w-lg md:max-w-xl lg:max-w-4xl ">
-        <div className="items-center text-2xl ">
+        <div className="items-center text-xl font-bold text-gray-800 lg:text-2xl ">
           <h2 className="">César Camacho</h2>
         </div>
         <div className="flex items-center text-xl">
