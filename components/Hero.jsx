@@ -7,7 +7,7 @@ export default function HeroSection() {
             Hey, I'm Cesar 👋
           </h1>
           <h2 className="mt-2 text-lg font-medium text-gray-100 ">
-            Digital designer & front-end web developer
+            UX designer & front-end web developer
           </h2>
           <p className="mt-3 text-lg font-medium text-gray-400 ">
             I build user friendly products for the web, using code and no-code
