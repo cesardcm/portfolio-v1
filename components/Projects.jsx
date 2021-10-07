@@ -14,7 +14,7 @@ export default function Projects() {
             <a target="_blank" href="https://mealticketguyana.com/">
               <img
                 src="images/portfolio-projects/portfolio-project-1.png"
-                className="object-cover rounded h-52 w-96"
+                className="object-cover p-3 rounded-lg h-52 w-96"
               ></img>
             </a>
           </div>
@@ -30,7 +30,7 @@ export default function Projects() {
             <a target="_blank" href="https://impactloopapp.com/">
               <img
                 src="images/portfolio-projects/portfolio-project-2.png"
-                className="object-cover rounded h-52 w-96"
+                className="object-cover p-3 rounded h-52 w-96"
               ></img>
             </a>
           </div>
