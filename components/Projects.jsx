@@ -2,7 +2,7 @@ export default function Projects() {
   return (
     <div id="Projects" className="mb-36">
       <h2 className="text-4xl font-medium">What I’ve been working on</h2>
-      <div className="w-4/5 mt-5">
+      <div className="mt-5 lg:w-4/5">
         <p className="text-xl">
           I give prority to projects that are free and useful for others. Here
           is a selection of my favorite ones.

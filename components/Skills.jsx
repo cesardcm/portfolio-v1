@@ -2,7 +2,7 @@ export default function SkillSection() {
   return (
     <div id="about" className="flex flex-col mt-36 mb-36 ">
       <h2 className="text-4xl font-medium">Skills</h2>
-      <div className="w-3/5 mt-5">
+      <div className="mt-5 lg:w-3/5">
         <p className="text-xl ">
           I'm passionate about technologies and tools with big communities and
           high satisfaction rates.

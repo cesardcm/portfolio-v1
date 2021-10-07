@@ -2,7 +2,7 @@ export default function HeroSection() {
   return (
     <div id="Hero Section" className="container mx-auto mt-16 ">
       <div className="container flex flex-col-reverse max-w-4xl mx-auto lg:items-center lg:justify-between lg:flex-shrink-0 lg:flex-row mt-9">
-        <div className="" id="Hero Content  ">
+        <div className=" lg:w-4/6" id="Hero Content  ">
           <h1 className="mt-6 text-4xl font-bold tracking-tighter lg:leading-snug">
             Cesar Camacho
           </h1>
