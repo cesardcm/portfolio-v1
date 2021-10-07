@@ -10,8 +10,8 @@ export default function HeroSection() {
             Digital designer & front-end web developer
           </h2>
           <p className="mt-3 text-lg font-medium text-gray-400 ">
-            Building useful products for the web, using code and no-code tools.
-            React with Next.js, Tailwind & Webflow
+            I build user friendly products for the web, using code and no-code
+            tools. React with Next.js, Tailwind & Webflow
           </p>
           <div id="icons" className="flex mt-5 gap-x-5 ">
             <a id="github" href="https://github.com/thejamdev" target="_blank">
