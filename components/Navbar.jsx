@@ -1,13 +1,11 @@
-import useDarkMode from "./Dark Mode/useDarkMode";
-
 export default function Navbar() {
-  const [colorTheme, setTheme] = useDarkMode();
-
   return (
     <header className="sticky top-0 z-50 py-4 mx-auto font-medium lg:pt-6 backdrop-blur-lg">
       <nav className="flex flex-row items-center justify-between max-w-sm mx-auto mb-2 sm:max-w-lg md:max-w-xl lg:max-w-4xl ">
         <div className="items-center text-xl font-bold text-white lg:text-2xl ">
-          <h2 className="">César Camacho</h2>
+          <a href="#">
+            <h2 className="">César Camacho</h2>
+          </a>
         </div>
         <div className="flex items-center text-xl">
           <div className="pr-4">
