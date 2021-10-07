@@ -9,7 +9,7 @@ export default function SkillSection() {
         </p>
       </div>
 
-      <div className="grid items-center grid-cols-2 mt-10 font-semibold text-center lg:w-4/5 lg:grid-cols-3 gap-x-10 gap-y-5 dark:text-gray-800 ">
+      <div className="grid items-center grid-cols-2 mt-10 font-semibold text-center text-gray-800 lg:w-4/5 lg:grid-cols-3 gap-x-10 gap-y-5 ">
         <div className="skills-block">
           <img src="images/js.png" className="skills-image"></img>
           <p>Javascript</p>

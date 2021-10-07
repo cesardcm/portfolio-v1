@@ -1,22 +1,22 @@
 export default function HeroSection() {
   return (
     <div id="Hero Section" className="container mx-auto mt-16 ">
-      <div className="container flex flex-col-reverse max-w-4xl mx-auto lg:items-center lg:justify-between lg:flex-shrink-0 lg:flex-row mt-9">
-        <div className=" lg:w-4/6" id="Hero Content  ">
+      <div className="container flex flex-col-reverse max-w-4xl mx-auto lg:items-center lg:gap-x-44 lg:flex-shrink-0 lg:flex-row mt-9">
+        <div className=" lg:w-3/6" id="Hero Content  ">
           <h1 className="mt-6 text-4xl font-bold tracking-tighter lg:leading-snug">
-            Cesar Camacho
+            Hey, I'm Cesar 👋
           </h1>
-          <h2 className="mt-2 text-lg font-medium ">
+          <h2 className="mt-2 text-lg font-medium text-gray-100 ">
             Digital designer & front-end web developer
           </h2>
-          <p className="mt-3 text-lg font-medium text-gray-600 ">
+          <p className="mt-3 text-lg font-medium text-gray-400 ">
             Building useful products for the web, using code and no-code tools.
-            React with Next.js, Tailwind and Webflow
+            React with Next.js, Tailwind & Webflow
           </p>
           <div id="icons" className="flex mt-5 gap-x-5 ">
             <a id="github" href="https://github.com/thejamdev" target="_blank">
               <svg
-                className="dark:text-white dark:fill-current"
+                className="text-white fill-current"
                 id="github"
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
@@ -32,7 +32,7 @@ export default function HeroSection() {
               target="_blank"
             >
               <svg
-                className="dark:text-white dark:fill-current"
+                className="text-white fill-current"
                 id="linkedin"
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
@@ -44,10 +44,13 @@ export default function HeroSection() {
             </a>
           </div>
         </div>
-        <div id="Hero Image" className="w-40 h-auto lg:max-w-xs">
+        <div
+          id="Hero Image"
+          className="w-40 h-auto lg:pb-7 lg:w-52 lg:max-w-xs"
+        >
           <img
             className="object-contain rounded-full shadow-lg"
-            src="images/profile.jpg"
+            src="images/profile.png"
           />
         </div>
       </div>
