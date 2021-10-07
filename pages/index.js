@@ -9,7 +9,7 @@ import Contact from "../components/Contact";
 
 export default function Home() {
   return (
-    <div className="dark:bg-gray-800 dark:text-gray-200">
+    <div className=" dark:bg-gray-800 dark:text-gray-200">
       <Head>
         <title>Cesar Camacho - Frontend Developer</title>
         <link rel="icon" href="/favicon.ico" />
@@ -25,7 +25,7 @@ export default function Home() {
         ></link>
       </Head>
       <Navbar />
-      <main className="max-w-4xl mx-auto ">
+      <main className="px-4 mx-auto lg:max-w-4xl ">
         <HeroSection />
         <SkillSection />
         <Projects />

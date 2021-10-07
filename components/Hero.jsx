@@ -1,24 +1,19 @@
 export default function HeroSection() {
   return (
     <div id="Hero Section" className="container mx-auto mt-16 ">
-      <div className="container flex items-center justify-between flex-shrink-0 max-w-4xl mx-auto mt-9">
-        <div className="" id="Hero Content">
-          <h1 className="font-medium leading-snug">
-            Hello, I’m Cesar! <br /> Front End Developer <br /> Focused on{" "}
-            <a target="_blank" href="https://nextjs.org/">
-              <span className="text-gray-700 hover:underline dark:text-gray-300">
-                Next.js
-              </span>{" "}
-            </a>{" "}
-            <br />
-            and{" "}
-            <a target="_blank" href="https://tailwindcss.com/">
-              <span className="text-green-500 hover:underline dark:text-green-300">
-                Tailwind.css
-              </span>
-            </a>
+      <div className="container flex flex-col-reverse max-w-4xl mx-auto lg:items-center lg:justify-between lg:flex-shrink-0 lg:flex-row mt-9">
+        <div className="" id="Hero Content  ">
+          <h1 className="mt-6 text-4xl font-bold tracking-tighter lg:leading-snug">
+            Cesar Camacho
           </h1>
-          <div className="flex justify-between w-1/6 mt-5">
+          <h2 className="mt-2 text-lg font-medium ">
+            Digital designer & front-end web developer
+          </h2>
+          <p className="mt-3 text-lg font-medium text-gray-600 ">
+            Building useful products for the web, using code and no-code tools.
+            React with Next.js, Tailwind and Webflow
+          </p>
+          <div id="icons" className="flex mt-5 gap-x-5 ">
             <a id="github" href="https://github.com/thejamdev" target="_blank">
               <svg
                 className="dark:text-white dark:fill-current"
@@ -49,7 +44,7 @@ export default function HeroSection() {
             </a>
           </div>
         </div>
-        <div id="Hero Image" className="max-w-xs">
+        <div id="Hero Image" className="w-40 h-auto lg:max-w-xs">
           <img
             className="object-contain rounded-full shadow-lg"
             src="images/profile.jpg"
