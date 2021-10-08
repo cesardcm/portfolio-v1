@@ -21,6 +21,7 @@ export default function HeroSection() {
               href="https://github.com/thejamdev"
               target="_blank"
               rel="noreferrer"
+              aria-label="Link to the author's Github Profile"
             >
               <svg
                 className="text-white fill-current hover:text-gray-400"
@@ -38,6 +39,7 @@ export default function HeroSection() {
               href="https://www.linkedin.com/in/cesar-cm/"
               target="_blank"
               rel="noopener"
+              aria-label="Link to the author's LinkedIn Profile"
             >
               <svg
                 className="text-white fill-current hover:text-blue-500"
