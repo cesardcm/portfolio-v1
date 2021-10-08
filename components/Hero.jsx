@@ -20,7 +20,7 @@ export default function HeroSection() {
               id="GITHUB"
               href="https://github.com/thejamdev"
               target="_blank"
-              rel="noopener"
+              rel="noreferrer"
             >
               <svg
                 className="text-white fill-current hover:text-gray-400"
