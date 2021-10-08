@@ -14,9 +14,9 @@ export default function HeroSection() {
             tools. React with Next.js, Tailwind & Webflow.
           </p>
           <div id="icons" className="flex mt-5 gap-x-5 ">
-            <a id="github" href="https://github.com/thejamdev" target="_blank">
+            <a id="GITHUB" href="https://github.com/thejamdev" target="_blank">
               <svg
-                className="text-white fill-current"
+                className="text-white fill-current hover:text-gray-400"
                 id="github"
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
@@ -32,7 +32,7 @@ export default function HeroSection() {
               target="_blank"
             >
               <svg
-                className="text-white fill-current"
+                className="text-white fill-current hover:text-blue-500"
                 id="linkedin"
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
