@@ -10,7 +10,7 @@ export default function Footer() {
         Powered by{" "}
         <div>
           <svg
-            className="h-4 text-black fill-current dark:text-white dark:fill-current"
+            className="h-4 text-white fill-current"
             width="85"
             height="64"
             viewBox="0 0 283 64"

@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <div id="contact" className="mb-36">
+    <div id="contact" className="mb-36 mt-36">
       <h2 className="text-4xl font-medium">Let’s talk!</h2>
       <div className="text-xl ">
         <p className="mt-4 ">Feel free to send me a message if: </p>
