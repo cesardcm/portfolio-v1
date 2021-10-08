@@ -26,9 +26,9 @@ export default function Home() {
         ></link>
       </Head>
       <Navbar />
-      <main className="px-4 mx-auto lg:px-0 lg:max-w-4xl ">
+      <main className="px-6 mx-auto lg:px-0 lg:max-w-4xl ">
         <HeroSection />
-        {/* <PersonalProjects /> */}
+        <PersonalProjects />
         {/* <SkillSection /> */}
         {/* <Projects /> */}
         <Contact />

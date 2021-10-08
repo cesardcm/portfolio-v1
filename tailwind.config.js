@@ -10,7 +10,7 @@ module.exports = {
         35: ".35",
       },
       colors: {
-        para: "#374151",
+        "paragraph-gray": "#BABABA",
       },
       fontFamily: {
         sans: ["'Inter'", ...defaultTheme.fontFamily.sans],

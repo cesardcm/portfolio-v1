@@ -21,3 +21,6 @@ html {
   scroll-behavior: smooth;
   scroll-padding: 100px;
 }
+body {
+  background-color: black;
+}

@@ -11,7 +11,7 @@ export default function HeroSection() {
           <h2 className="mt-2 text-lg font-medium text-gray-100 ">
             UX designer & front-end web developer
           </h2>
-          <p className="mt-3 text-lg font-medium text-gray-400 ">
+          <p className="mt-3 text-xl font-medium text-paragraph-gray ">
             I build user friendly products for the web, using code and no-code
             tools. React with Next.js, Tailwind & Webflow.
           </p>
@@ -56,13 +56,13 @@ export default function HeroSection() {
         </div>
         <div
           id="Image"
-          className="relative w-40 h-40 rounded-full lg:mb-4 lg:h-52 lg:w-52 lg:max-w-xs"
+          className="relative rounded-full w-36 h-36 lg:mb-4 lg:h-52 lg:w-52 lg:max-w-xs"
         >
           <Image
             className="rounded-full"
             src="/images/profile.png"
             layout="fill"
-            objectFit="contain"
+            objectFit="cover"
             alt="Picture of the author"
           />
         </div>
