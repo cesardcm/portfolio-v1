@@ -1,8 +1,10 @@
+import Image from "next/image";
+
 export default function HeroSection() {
   return (
     <div id="Hero Section" className="container mx-auto mt-16 ">
       <div className="container flex flex-col-reverse max-w-4xl mx-auto lg:items-center lg:gap-x-44 lg:flex-shrink-0 lg:flex-row mt-9">
-        <div className=" lg:w-3/6" id="Hero Content  ">
+        <div id="Content" className="lg:w-3/6">
           <h1 className="mt-6 text-4xl font-bold tracking-tighter lg:leading-snug">
             Hey, I'm Cesar 👋
           </h1>
@@ -45,15 +47,24 @@ export default function HeroSection() {
           </div>
         </div>
         <div
-          id="Hero Image"
-          className="w-40 h-auto lg:pb-7 lg:w-52 lg:max-w-xs"
+          id="Image"
+          className="relative w-40 h-40 rounded-full lg:mb-4 lg:h-52 lg:w-52 lg:max-w-xs"
         >
-          <img
-            className="object-contain rounded-full shadow-lg"
-            src="images/profile.png"
+          <Image
+            className="rounded-full"
+            src="/images/profile.png"
+            layout="fill"
+            objectFit="contain"
           />
         </div>
       </div>
     </div>
   );
+}
+
+{
+  /* <img
+            className="object-contain rounded-full shadow-lg"
+            src="images/profile.png"
+          /> */
 }

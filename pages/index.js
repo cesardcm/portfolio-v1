@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar";
 import HeroSection from "../components/Hero";
 import SkillSection from "../components/Skills";
 import Projects from "../components/Projects";
+import PersonalProjects from "../components/PersonalProjects";
 import Contact from "../components/Contact";
 
 export default function Home() {
@@ -27,6 +28,7 @@ export default function Home() {
       <Navbar />
       <main className="px-4 mx-auto lg:px-0 lg:max-w-4xl ">
         <HeroSection />
+        {/* <PersonalProjects /> */}
         {/* <SkillSection /> */}
         {/* <Projects /> */}
         <Contact />
