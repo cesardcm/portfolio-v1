@@ -16,7 +16,12 @@ export default function HeroSection() {
             tools. React with Next.js, Tailwind & Webflow.
           </p>
           <div id="icons" className="flex mt-5 gap-x-5 ">
-            <a id="GITHUB" href="https://github.com/thejamdev" target="_blank">
+            <a
+              id="GITHUB"
+              href="https://github.com/thejamdev"
+              target="_blank"
+              rel="noopener"
+            >
               <svg
                 className="text-white fill-current hover:text-gray-400"
                 id="github"
@@ -32,6 +37,7 @@ export default function HeroSection() {
               id="LINKEDIN"
               href="https://www.linkedin.com/in/cesar-cm/"
               target="_blank"
+              rel="noopener"
             >
               <svg
                 className="text-white fill-current hover:text-blue-500"
@@ -60,11 +66,4 @@ export default function HeroSection() {
       </div>
     </div>
   );
-}
-
-{
-  /* <img
-            className="object-contain rounded-full shadow-lg"
-            src="images/profile.png"
-          /> */
 }
