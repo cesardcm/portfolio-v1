@@ -10,6 +10,7 @@ export default function PersonalProjects() {
             src="/images/portfolio-projects/portfolio-project-3.png"
             layout="fill"
             objectFit="contain"
+            alt="Ableton Remake Screenshot"
           />
         </div>
       </div>

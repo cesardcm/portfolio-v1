@@ -61,6 +61,7 @@ export default function HeroSection() {
             src="/images/profile.png"
             layout="fill"
             objectFit="contain"
+            alt="Picture of the author"
           />
         </div>
       </div>
