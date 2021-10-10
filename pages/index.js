@@ -7,6 +7,7 @@ import SkillSection from "../components/Skills";
 import Projects from "../components/Projects";
 import PersonalProjects from "../components/PersonalProjects";
 import Contact from "../components/Contact";
+import ProjectTitle from "../components/ProjectTitle";
 
 export default function Home() {
   return (
@@ -28,7 +29,28 @@ export default function Home() {
       <Navbar />
       <main className="px-6 mx-auto lg:px-0 lg:max-w-4xl ">
         <HeroSection />
-        <PersonalProjects />
+        <ProjectTitle />
+        <PersonalProjects
+          projectNumber="3"
+          title="Ableton Remake"
+          projectDescription="A live-chat widget that uses Discord as a backend. Customer's can add
+          a snippet to their website and start having conversations with their
+          visitors"
+        />
+        <PersonalProjects
+          projectNumber="4"
+          title="Trabaja en Una Startup"
+          projectDescription="A live-chat widget that uses Discord as a backend. Customer's can add
+          a snippet to their website and start having conversations with their
+          visitors"
+        />
+        <PersonalProjects
+          projectNumber="5"
+          title="Phonet"
+          projectDescription="A live-chat widget that uses Discord as a backend. Customer's can add
+          a snippet to their website and start having conversations with their
+          visitors"
+        />
         {/* <SkillSection /> */}
         {/* <Projects /> */}
         <Contact />
