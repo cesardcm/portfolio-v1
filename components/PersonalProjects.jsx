@@ -16,9 +16,9 @@ export default function PersonalProjects(props) {
             className="object-top "
           />
         </div>
-        <a href="https://github.com/thejamdev/ableton-remake">
+        <a href={props.projectLink} target="_blank" rel="noopener noreferrer">
           <div className="flex items-center mb-5 hover:text-paragraph-gray mt-14 gap-x-4 lg:w-5/12">
-            <h3 className="text-4xl font-semibold tracking-tighter ">
+            <h3 className="text-4xl font-semibold tracking-tighter">
               {props.title}
             </h3>
             <svg

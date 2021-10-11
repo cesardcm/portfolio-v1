@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import HeroSection from "../components/Hero";
@@ -33,26 +32,41 @@ export default function Home() {
         <PersonalProjects
           projectNumber="3"
           title="Ableton Remake"
-          projectDescription="A live-chat widget that uses Discord as a backend. Customer's can add
-          a snippet to their website and start having conversations with their
-          visitors"
+          projectLink="https://github.com/thejamdev/ableton-remake"
+          projectDescription={
+            <>
+              A remake of the About Page of Ableton made with TailwindCSS &
+              Next.js. Part of the challenges of
+              <a
+                className="text-white underline hover:text-paragraph-gray"
+                href="https://www.frontendpractice.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                Front End Practice.
+              </a>
+            </>
+          }
         />
         <PersonalProjects
           projectNumber="4"
-          title="Trabaja en Una Startup"
-          projectDescription="A live-chat widget that uses Discord as a backend. Customer's can add
-          a snippet to their website and start having conversations with their
-          visitors"
+          title="Trabaja en Startups"
+          projectLink="https://trabajaenstartups.crd.co/"
+          projectDescription="A tool focused on the no-code community. It helps people to find jobs in the tech industry without the need of learning to code. Built with Pory & Carrd."
         />
         <PersonalProjects
           projectNumber="5"
-          title="Phonet"
-          projectDescription="A live-chat widget that uses Discord as a backend. Customer's can add
-          a snippet to their website and start having conversations with their
-          visitors"
+          projectLink="https://phonet.crd.co/"
+          title={
+            <>
+              <div className="text-4xl font-semibold tracking-tighter line-through text-paragraph-gray hover:text-white ">
+                Phonet
+              </div>
+            </>
+          }
+          projectDescription="Canceled | A marketplace for local photographers. Helping photographers land more gigs during the global pandemic was the goal of the project. Built with Carrd & Sharetribe"
         />
-        {/* <SkillSection /> */}
-        {/* <Projects /> */}
         <Contact />
       </main>
       <Footer />
