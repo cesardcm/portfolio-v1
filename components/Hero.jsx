@@ -27,7 +27,7 @@ export default function HeroSection() {
               whileTap={{ scale: 0.8, rotate: -90, borderRadius: "100%" }}
             >
               <svg
-                className="text-white fill-current hover:text-gray-400"
+                className="text-white fill-current"
                 id="github"
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
@@ -47,7 +47,7 @@ export default function HeroSection() {
               whileTap={{ scale: 0.8, rotate: -90, borderRadius: "100%" }}
             >
               <svg
-                className="text-white fill-current hover:text-blue-500"
+                className="text-white fill-current "
                 id="linkedin"
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
