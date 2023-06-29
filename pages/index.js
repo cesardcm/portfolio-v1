@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className="text-gray-200 bg-black ">
       <Head>
-        <title>Cesar Camacho - Frontend Developer</title>
+        <title>Cesar Camacho - Web Developer</title>
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
